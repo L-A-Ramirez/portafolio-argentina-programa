@@ -1,0 +1,91 @@
+{
+    "infoPersonal":[
+        {
+            "firstName":"Lucas", 
+            "lastName":"Ramirez",
+            "fnaci":"05/01/1998",
+            "sexo":"Masculino",
+            "nacionalidad":"Argentina",
+            "ciudad":"Buenos Aires"
+        }
+    ],
+    "experiencia":[
+        {
+            "trabajo":"Lucas", 
+            "puesto":"Ramirez",
+            "cargo":"05/01/1998",
+            "herramientas":"Masculino",
+            "referencia":"Argentina"
+        }
+    ],
+    "secundario":[
+        {
+            "establecimiento":"Oscar Smith",
+            "ingreso":2016,
+            "egreso":2019,
+            "titulo":"Bachillerato en Ciencias Sociales"
+        }
+    ],
+    "cursos":[
+        {
+            "nombre":"Diseño grafico nivel I y II",
+            "establecimiento":"CFP N°406",
+            "horas": 150
+        },
+        {
+            "nombre": "Tecnicas de programación",
+            "establecimiento": "CFP N°8 | SMATA",
+            "horas" : 120
+        },
+        {
+            "nombre":"Programación Orientada a objetos",
+            "establecimiento": "CFP N°8 | SMATA",
+            "horas": 150
+        },
+        {
+            "nombre": "Base de datos",
+            "establecimiento": "CFP N°8 | SMATA",
+            "horas": 70
+        },
+        {
+            "nombre": "Aplicación Web",
+            "establecimiento": "CFP N°8 | SMATA",
+            "horas": 60
+        },
+        {
+            "nombre": "Gestión de Base de datos",
+            "establecimiento":"CFP N°8 | SMATA",
+            "horas": 60
+        },
+        {
+            "nombre":"Interface Grafica Web",
+            "establecimiento": "CFP N°8 | SMATA",
+            "horas": 60
+        },
+        {
+            "nombre":"Tecnología Salesforce",
+            "establecimiento": "GLOBANT",
+            "horas": 150
+        }
+    ],
+    "Habilidades duras":[
+        {
+            "html":"",
+            "css":"",
+            "js":"",
+            "bootstrap":"",
+            "angular":"",
+            "java":"",
+            "mysql":""
+        }
+    ],
+    "Habilidades blandas":[
+        {
+            "proactividad":44,
+            "liderazgo":36,
+            "trabajoEnEquipo":42,
+            "creatividad":70
+        }
+    ]
+      
+}
