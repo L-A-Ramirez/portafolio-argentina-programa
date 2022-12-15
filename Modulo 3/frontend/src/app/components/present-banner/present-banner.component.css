@@ -1,0 +1,11 @@
+#perfil{
+    width: 200px;
+    position: absolute;
+    margin-block-start: -150px;
+    background-color: rgb(176, 181, 186);
+}
+ 
+#cargo{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
