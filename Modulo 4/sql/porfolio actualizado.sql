@@ -10,7 +10,8 @@ create table personas(
     nombre varchar(25),
     apellido varchar(25),
     contacto varchar(20),
-    mail varchar (40)
+    mail varchar (40),
+    acercademi char(255)
 );
 
 create table experiencia_laboral(
@@ -43,14 +44,16 @@ create table habilidades(
 	id int auto_increment primary key,
     nombre varchar(25),
     porcentaje int(10),
-	foto varchar (200)
+	foto varchar (200),
+    dni_persona int
 );
 
 create table cursos(
 	id int auto_increment primary key,
     nombre varchar(25),
     carga_horaria time,
-    centro varchar(20)
+    centro varchar(20),
+    dni_persona int
 );
 
 create table proyectos(
@@ -58,12 +61,12 @@ create table proyectos(
     nombre varchar(25),
     project_inicio date,
     project_fin date,
-    descripcion text
+    descripcion text,
+    dni_persona int
 );
 
-create table usuario(
-	id int auto_increment primary key,
-    usuario varchar(25),
+create table usuarios(
+	dni int primary key,
     paswoord varchar(15)
 );
 
@@ -75,3 +78,15 @@ ADD FOREIGN KEY (dni_persona) REFERENCES personas(dni);
 
 ALTER TABLE educacion
 ADD FOREIGN KEY (dni_persona) REFERENCES personas(dni);
+
+ALTER TABLE habilidades
+ADD FOREIGN KEY (dni_persona) REFERENCES personas(dni);
+
+ALTER TABLE cursos
+ADD FOREIGN KEY (dni_persona) REFERENCES personas(dni);
+
+ALTER TABLE proyectos
+ADD FOREIGN KEY (dni_persona) REFERENCES personas(dni);
+
+ALTER TABLE usuarios
+ADD FOREIGN KEY (dni) REFERENCES personas(dni);
